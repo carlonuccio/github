@@ -1,0 +1,9 @@
+---
+version: 2
+
+models:
+    - name: stg_commits # required
+      description: staging partitioned table by day which contain only commits of the year 2022 and not greater than the date of today
+      columns:
+          - name: partition_date
+            description: Partition Date

@@ -1,0 +1,12 @@
+---
+version: 2
+
+models:
+    - name: mart1
+      description: | 
+                   Joined the staging table with the “languages” table, 
+                   the “licenses” table and the seed 'origin_names' table.
+    - name: mart2
+      description: | 
+                   Join the contents table and the files table and only keep the row that relates to a README.md file. 
+                   Filter out first only on the “repo_name” that are present in the staging table.

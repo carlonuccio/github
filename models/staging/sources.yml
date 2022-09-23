@@ -1,0 +1,13 @@
+---
+version: 2
+
+sources:
+  - name: github # required
+    database: 'bigquery-public-data'
+    schema: 'github_repos'
+    tables:
+      - name: commits
+      - name: contents
+      - name: files
+      - name: languages
+      - name: licenses

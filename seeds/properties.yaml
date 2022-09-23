@@ -1,0 +1,9 @@
+---
+version: 2
+
+seeds:
+    - name: origin_names
+      config:
+        column_types:
+          first_name: STRING
+          origin: STRING
